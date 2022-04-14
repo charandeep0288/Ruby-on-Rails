@@ -1,0 +1,37 @@
+*{ 
+    box-sizing: border-box;
+    border: 0px;
+    font-family: "Open Sans";
+}
+
+
+html {
+    background-color: rgba(73, 73, 228, 0.504);
+}
+
+body {
+    background-color: white;
+    border: 5px solid black;
+    padding: 10px;
+    width: 600px;
+    margin: 30px auto;
+}
+
+.logo {
+    display:block;
+    margin: 0 auto;
+}
+
+h1 { 
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li { 
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
