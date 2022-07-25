@@ -1,5 +1,18 @@
 # README
 
+
+--------------------------------------------------------------------
+
+1. Display "Hello World!" in browser
+2. Formalize using Rails convention
+3. Review MVC diagram for information flow
+
+Comand to create new controller pages
+-> rails generate controller pages
+
+--------------------------------------------------------------------
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
