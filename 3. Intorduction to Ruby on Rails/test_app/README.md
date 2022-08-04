@@ -3,11 +3,28 @@ README.md -> where ".md" means "mark down"
 
 
 --------------------------------------------------------------------
+If you chose SSH as the option to push existing repo, you will need to set up an SSH key unless you already have one.
 
-Structure of a Rails application - Text references
-You can find the details of the individual folders in a Rails application (when it's created) here: https://guides.rubyonrails.org/getting_started.html
+To display your public SSH key:
 
-Scroll down to section 3.2, skip the part about creating the new application and then you will find a listing of all the folders and their purpose in-depth.
+cat ~/.ssh/id_rsa.pub
+
+If you don't have an SSH public key or are not sure, checkout the instructions here: https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+
+When creating a GitHub repo for your application, you can click on the SSH button, then push existing repo:
+
+git remote add origin git@github.com:yourgithubaccountname/test-app-6.git
+
+git push -u origin master # Remember you only need to use this command the first time
+
+To view remotes setup in your environment (from your app directory):
+
+git remote -v
+
+For future pushes to repository:
+
+git push origin master
+
 --------------------------------------------------------------------
 
 
