@@ -4,13 +4,10 @@ README.md -> where ".md" means "mark down"
 
 --------------------------------------------------------------------
 
-Structure of a Rails application
+Structure of a Rails application - Text references
+You can find the details of the individual folders in a Rails application (when it's created) here: https://guides.rubyonrails.org/getting_started.html
 
-config ->  we would do various configuration we needed in this configuration folder
-
-- All the version and dependencies that we add using yarn are stored in project are stored in this package.json file.
-
-- Files which are starting with .(dot) are called hidden files like .gitignore file and doesn't show up by default. 
+Scroll down to section 3.2, skip the part about creating the new application and then you will find a listing of all the folders and their purpose in-depth.
 --------------------------------------------------------------------
 
 
