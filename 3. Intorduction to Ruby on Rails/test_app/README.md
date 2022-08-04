@@ -1,15 +1,16 @@
-# README
+# README 
+README.md -> where ".md" means "mark down"
 
 
 --------------------------------------------------------------------
 
-1. Display "Hello World!" in browser
-2. Formalize using Rails convention
-3. Review MVC diagram for information flow
+Structure of a Rails application
 
-Comand to create new controller pages
--> rails generate controller pages
+config ->  we would do various configuration we needed in this configuration folder
 
+- All the version and dependencies that we add using yarn are stored in project are stored in this package.json file.
+
+- Files which are starting with .(dot) are called hidden files like .gitignore file and doesn't show up by default. 
 --------------------------------------------------------------------
 
 

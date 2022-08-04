@@ -1,3 +1,5 @@
+<%# This is where all our views are served through in our application %>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,11 +8,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%# All the stylesheet are available through this line in our application %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%# All the JS are available through this line in our application %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%# All the views we create in views folder are available here because of this "yield" and all the Stylesheet and JS functionality are available to all the views %>
     <%= yield %>
   </body>
 </html>
