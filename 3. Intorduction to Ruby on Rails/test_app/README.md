@@ -3,25 +3,19 @@ README.md -> where ".md" means "mark down"
 
 
 --------------------------------------------------------------------
+68. Add About page and homework assignment 
+        
+Homework:
 
-1. Known what HTML tags are: h1 tags, p tags etc., and the syntax.
-2. Know how to style classes and ids using CSS at a basic level.
-3. Know the difference betweeb in-line and external CSS used in HTML
-documents.
-4. At a basic level know what forms and tables are and how to create them.
+1. Create an alpha-blog application.
 
+2. Setup tracking with Git and make a commit of your code with the message "Initial commit". Set up a GitHub repository for the app.
 
-Learn and practice HTML and CSS references:- 
+3. Create a home page view (as the root route) and an about page like the test app.
 
-HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+4. Make sure you are able to start the server and preview the application. Take snapshots of the two pages (home and about) and post them to the Q & A.
 
-CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
-
-HTML tables: https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables
-
-HTML forms: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
-
-Alternate resource to learn HTML and CSS together while building a website: https://learn.shayhowe.com/html-css/
+5. Make a commit of your code and push to your GitHub repository for the application.
 
 --------------------------------------------------------------------
 
