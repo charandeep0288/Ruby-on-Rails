@@ -3,27 +3,25 @@ README.md -> where ".md" means "mark down"
 
 
 --------------------------------------------------------------------
-If you chose SSH as the option to push existing repo, you will need to set up an SSH key unless you already have one.
 
-To display your public SSH key:
+1. Known what HTML tags are: h1 tags, p tags etc., and the syntax.
+2. Know how to style classes and ids using CSS at a basic level.
+3. Know the difference betweeb in-line and external CSS used in HTML
+documents.
+4. At a basic level know what forms and tables are and how to create them.
 
-cat ~/.ssh/id_rsa.pub
 
-If you don't have an SSH public key or are not sure, checkout the instructions here: https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+Learn and practice HTML and CSS references:- 
 
-When creating a GitHub repo for your application, you can click on the SSH button, then push existing repo:
+HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
-git remote add origin git@github.com:yourgithubaccountname/test-app-6.git
+CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
 
-git push -u origin master # Remember you only need to use this command the first time
+HTML tables: https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables
 
-To view remotes setup in your environment (from your app directory):
+HTML forms: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 
-git remote -v
-
-For future pushes to repository:
-
-git push origin master
+Alternate resource to learn HTML and CSS together while building a website: https://learn.shayhowe.com/html-css/
 
 --------------------------------------------------------------------
 
